@@ -1,0 +1,53 @@
+.score{
+    width:100%;
+    background-color: black;
+    height: 75px;
+    color: white;
+    text-align: center;
+}
+.start{
+ background-color: red;
+ width:700px;
+ height: 150px;
+ padding: 20px;
+ color: white;
+ position: absolute;
+ margin-left: 22%;
+ margin-top: 35px;
+ z-index: 1;
+ text-align: center;
+
+}
+.game{
+    background-color: black;
+    height:90vh;
+    width:400px; 
+    position: relative;
+    margin: auto;
+}
+.hide{
+    display:none;
+}
+.car{
+    
+    background: transparent url(player.png) center / cover no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    bottom: 0px;
+}
+.line{
+    width:10px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    margin-left: 47%;
+}
+.enemy{
+    background:transparent url(car.png) center / cover no-repeat;
+    background-size:contain;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+}
